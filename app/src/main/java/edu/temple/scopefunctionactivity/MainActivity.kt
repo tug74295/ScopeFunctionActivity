@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
         listOfNumbers.average() < median
     }
 
-
     // Create a view from an item in a collection, but recycle if possible (similar to an AdapterView's adapter)
     private fun getView(position: Int, recycledView: View?, collection: List<Int>, context: Context): View =
         (recycledView as? TextView ?: TextView(context). apply {
