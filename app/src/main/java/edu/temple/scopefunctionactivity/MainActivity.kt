@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         // eg. Log.d("function output", getTestDataArray().toString())
         Log.d("GetTestDataArray fun output", getTestDataArray().toString())
         Log.d("averageLessThanMedian fun output", averageLessThanMedian(listOf(1.0, 3.0, 5.0, 7.0, 9.0)).toString())
-
     }
     /* Convert all the helper functions below to Single-Expression Functions using Scope Functions */
     // eg. private fun getTestDataArray() = ...
